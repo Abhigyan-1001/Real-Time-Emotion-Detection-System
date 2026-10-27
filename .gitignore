@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and local config
+.env
+
+# Editor settings
+.vscode/
+
+# Datasets (large; we'll document how to download them instead)
+data/
+
+# Camera recordings and screenshots with faces (privacy)
+*.mp4
+*.avi
+recordings/
