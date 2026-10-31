@@ -99,6 +99,20 @@ class FaceTracker:
         self._tracks.clear()
         self._next_id = 1
 
+    def configure(self, alpha: float | None = None, threshold: float | None = None) -> None:
+        """Change settings while running; existing faces adopt the new alpha immediately."""
+
+        if alpha is not None:
+            if not 0.0 < alpha <= 1.0:
+                raise ValueError("alpha must be in (0, 1].")
+            self.alpha = alpha
+            for track in self._tracks:
+                track.smoother.alpha = alpha
+        if threshold is not None:
+            if not 0.0 <= threshold <= 1.0:
+                raise ValueError("threshold must be in [0, 1].")
+            self.threshold = threshold
+
     def update(self, results: list[FaceResult]) -> list[TrackedFace]:
         # 1. Score every (existing track, new detection) pair by box overlap.
         pairs = []
@@ -152,3 +166,6 @@ class FaceTracker:
         # 5. Forget faces that have been gone for too long.
         self._tracks = [t for t in self._tracks if t.missed <= self.max_missed]
         return tracked
+
+
+    

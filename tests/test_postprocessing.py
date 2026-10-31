@@ -177,3 +177,21 @@ def test_reset_restarts_track_ids():
     tracker.reset()
     out = tracker.update([make_result((0, 0, 80, 80), [0.8, 0.1, 0.1])])
     assert out[0].track_id == 1
+
+def test_configure_changes_alpha_for_existing_faces():
+    tracker = FaceTracker(LABELS, alpha=1.0)
+    box = (0, 0, 80, 80)
+    tracker.update([make_result(box, [0.9, 0.05, 0.05])])
+    tracker.configure(alpha=0.5)
+    out = tracker.update([make_result(box, [0.1, 0.8, 0.1])])
+    # a: 0.5*0.1 + 0.5*0.9 = 0.50   b: 0.5*0.8 + 0.5*0.05 = 0.425
+    assert out[0].label == "a"
+    assert out[0].score == pytest.approx(0.5)
+
+
+@pytest.mark.parametrize(
+    "kwargs", [{"alpha": 0.0}, {"alpha": 1.5}, {"threshold": -0.1}, {"threshold": 1.2}]
+)
+def test_configure_rejects_invalid_values(kwargs):
+    with pytest.raises(ValueError):
+        FaceTracker(LABELS).configure(**kwargs)  
