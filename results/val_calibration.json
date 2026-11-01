@@ -1,0 +1,335 @@
+{
+  "threshold_sweep": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "accuracy_on_accepted": 0.6156525777984209,
+      "per_class_coverage": {
+        "angry": 1.0,
+        "disgust": 1.0,
+        "fear": 1.0,
+        "happy": 1.0,
+        "neutral": 1.0,
+        "sad": 1.0,
+        "surprise": 1.0
+      }
+    },
+    {
+      "threshold": 0.05,
+      "coverage": 1.0,
+      "accuracy_on_accepted": 0.6156525777984209,
+      "per_class_coverage": {
+        "angry": 1.0,
+        "disgust": 1.0,
+        "fear": 1.0,
+        "happy": 1.0,
+        "neutral": 1.0,
+        "sad": 1.0,
+        "surprise": 1.0
+      }
+    },
+    {
+      "threshold": 0.1,
+      "coverage": 1.0,
+      "accuracy_on_accepted": 0.6156525777984209,
+      "per_class_coverage": {
+        "angry": 1.0,
+        "disgust": 1.0,
+        "fear": 1.0,
+        "happy": 1.0,
+        "neutral": 1.0,
+        "sad": 1.0,
+        "surprise": 1.0
+      }
+    },
+    {
+      "threshold": 0.15,
+      "coverage": 1.0,
+      "accuracy_on_accepted": 0.6156525777984209,
+      "per_class_coverage": {
+        "angry": 1.0,
+        "disgust": 1.0,
+        "fear": 1.0,
+        "happy": 1.0,
+        "neutral": 1.0,
+        "sad": 1.0,
+        "surprise": 1.0
+      }
+    },
+    {
+      "threshold": 0.2,
+      "coverage": 1.0,
+      "accuracy_on_accepted": 0.6156525777984209,
+      "per_class_coverage": {
+        "angry": 1.0,
+        "disgust": 1.0,
+        "fear": 1.0,
+        "happy": 1.0,
+        "neutral": 1.0,
+        "sad": 1.0,
+        "surprise": 1.0
+      }
+    },
+    {
+      "threshold": 0.25,
+      "coverage": 0.9983743613562471,
+      "accuracy_on_accepted": 0.6164224238194929,
+      "per_class_coverage": {
+        "angry": 1.0,
+        "disgust": 0.9787234042553191,
+        "fear": 0.9968404423380727,
+        "happy": 0.9980769230769231,
+        "neutral": 0.9986486486486487,
+        "sad": 0.9986648865153538,
+        "surprise": 1.0
+      }
+    },
+    {
+      "threshold": 0.3,
+      "coverage": 0.9765443567115653,
+      "accuracy_on_accepted": 0.6235434007134364,
+      "per_class_coverage": {
+        "angry": 0.9740034662045061,
+        "disgust": 0.9787234042553191,
+        "fear": 0.9589257503949447,
+        "happy": 0.9913461538461539,
+        "neutral": 0.9783783783783784,
+        "sad": 0.9732977303070761,
+        "surprise": 0.9730769230769231
+      }
+    },
+    {
+      "threshold": 0.35,
+      "coverage": 0.9238272178355783,
+      "accuracy_on_accepted": 0.6405228758169934,
+      "per_class_coverage": {
+        "angry": 0.8890814558058926,
+        "disgust": 0.9787234042553191,
+        "fear": 0.8988941548183255,
+        "happy": 0.9625,
+        "neutral": 0.9216216216216216,
+        "sad": 0.9078771695594126,
+        "surprise": 0.9365384615384615
+      }
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.8453320947515095,
+      "accuracy_on_accepted": 0.6656593406593406,
+      "per_class_coverage": {
+        "angry": 0.8006932409012132,
+        "disgust": 0.851063829787234,
+        "fear": 0.7977883096366508,
+        "happy": 0.9298076923076923,
+        "neutral": 0.8216216216216217,
+        "sad": 0.7917222963951935,
+        "surprise": 0.8942307692307693
+      }
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.772178355782629,
+      "accuracy_on_accepted": 0.6893233082706767,
+      "per_class_coverage": {
+        "angry": 0.7192374350086655,
+        "disgust": 0.8085106382978723,
+        "fear": 0.7109004739336493,
+        "happy": 0.9086538461538461,
+        "neutral": 0.7189189189189189,
+        "sad": 0.6702269692923899,
+        "surprise": 0.8519230769230769
+      }
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.6941477008824896,
+      "accuracy_on_accepted": 0.7152893944463031,
+      "per_class_coverage": {
+        "angry": 0.634315424610052,
+        "disgust": 0.8085106382978723,
+        "fear": 0.5971563981042654,
+        "happy": 0.8721153846153846,
+        "neutral": 0.6229729729729729,
+        "sad": 0.5514018691588785,
+        "surprise": 0.8192307692307692
+      }
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.6223873664653972,
+      "accuracy_on_accepted": 0.7436567164179104,
+      "per_class_coverage": {
+        "angry": 0.5545927209705372,
+        "disgust": 0.7446808510638298,
+        "fear": 0.5055292259083728,
+        "happy": 0.8432692307692308,
+        "neutral": 0.5364864864864864,
+        "sad": 0.4499332443257677,
+        "surprise": 0.7576923076923077
+      }
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.5541105434277752,
+      "accuracy_on_accepted": 0.769907795473596,
+      "per_class_coverage": {
+        "angry": 0.47660311958405543,
+        "disgust": 0.6382978723404256,
+        "fear": 0.4296998420221169,
+        "happy": 0.8105769230769231,
+        "neutral": 0.4702702702702703,
+        "sad": 0.3484646194926569,
+        "surprise": 0.6865384615384615
+      }
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.48583372039015327,
+      "accuracy_on_accepted": 0.7978011472275335,
+      "per_class_coverage": {
+        "angry": 0.3934142114384749,
+        "disgust": 0.6382978723404256,
+        "fear": 0.36018957345971564,
+        "happy": 0.7807692307692308,
+        "neutral": 0.3837837837837838,
+        "sad": 0.25634178905206945,
+        "surprise": 0.6134615384615385
+      }
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.4254528564793312,
+      "accuracy_on_accepted": 0.8215065502183406,
+      "per_class_coverage": {
+        "angry": 0.32582322357019067,
+        "disgust": 0.6170212765957447,
+        "fear": 0.2890995260663507,
+        "happy": 0.7413461538461539,
+        "neutral": 0.31216216216216214,
+        "sad": 0.1842456608811749,
+        "surprise": 0.5615384615384615
+      }
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.36669763121226195,
+      "accuracy_on_accepted": 0.8518049398353388,
+      "per_class_coverage": {
+        "angry": 0.2807625649913345,
+        "disgust": 0.574468085106383,
+        "fear": 0.22274881516587677,
+        "happy": 0.6951923076923077,
+        "neutral": 0.24324324324324326,
+        "sad": 0.11748998664886515,
+        "surprise": 0.49615384615384617
+      }
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.31490942870413374,
+      "accuracy_on_accepted": 0.8886430678466076,
+      "per_class_coverage": {
+        "angry": 0.22357019064124783,
+        "disgust": 0.5319148936170213,
+        "fear": 0.16587677725118483,
+        "happy": 0.6519230769230769,
+        "neutral": 0.1864864864864865,
+        "sad": 0.07476635514018691,
+        "surprise": 0.4326923076923077
+      }
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.2666047375754761,
+      "accuracy_on_accepted": 0.9137630662020906,
+      "per_class_coverage": {
+        "angry": 0.1663778162911612,
+        "disgust": 0.5106382978723404,
+        "fear": 0.11690363349131122,
+        "happy": 0.6038461538461538,
+        "neutral": 0.12837837837837837,
+        "sad": 0.04539385847797063,
+        "surprise": 0.37884615384615383
+      }
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.2180678123548537,
+      "accuracy_on_accepted": 0.9435569755058573,
+      "per_class_coverage": {
+        "angry": 0.10918544194107452,
+        "disgust": 0.48936170212765956,
+        "fear": 0.08372827804107424,
+        "happy": 0.55,
+        "neutral": 0.08243243243243244,
+        "sad": 0.01602136181575434,
+        "surprise": 0.2980769230769231
+      }
+    }
+  ],
+  "reliability": [
+    {
+      "low": 0.0,
+      "high": 0.2,
+      "count": 0,
+      "mean_confidence": NaN,
+      "accuracy": NaN
+    },
+    {
+      "low": 0.2,
+      "high": 0.3,
+      "count": 101,
+      "mean_confidence": 0.27503493428230286,
+      "accuracy": 0.2871287128712871
+    },
+    {
+      "low": 0.3,
+      "high": 0.4,
+      "count": 565,
+      "mean_confidence": 0.355497807264328,
+      "accuracy": 0.35221238938053095
+    },
+    {
+      "low": 0.4,
+      "high": 0.5,
+      "count": 651,
+      "mean_confidence": 0.4509549140930176,
+      "accuracy": 0.4377880184331797
+    },
+    {
+      "low": 0.5,
+      "high": 0.6,
+      "count": 603,
+      "mean_confidence": 0.5487776398658752,
+      "accuracy": 0.49917081260364843
+    },
+    {
+      "low": 0.6,
+      "high": 0.7,
+      "count": 554,
+      "mean_confidence": 0.6477676033973694,
+      "accuracy": 0.5992779783393501
+    },
+    {
+      "low": 0.7,
+      "high": 0.8,
+      "count": 476,
+      "mean_confidence": 0.7479985952377319,
+      "accuracy": 0.6302521008403361
+    },
+    {
+      "low": 0.8,
+      "high": 0.9,
+      "count": 417,
+      "mean_confidence": 0.8504471182823181,
+      "accuracy": 0.7649880095923262
+    },
+    {
+      "low": 0.9,
+      "high": 1.0,
+      "count": 939,
+      "mean_confidence": 0.9660799503326416,
+      "accuracy": 0.9435569755058573
+    }
+  ]
+}

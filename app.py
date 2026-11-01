@@ -65,7 +65,7 @@ with st.sidebar:
         value=0.40,
         step=0.05,
         help="Below this top score the app shows 'uncertain'. "
-        "The default is tentative and has not yet been calibrated on validation data.",
+        "The default (0.40) was chosen using validation results and a live smoothing test; see the README.",
     )
     if st.button("Reset session statistics"):
         analyzer.reset()
