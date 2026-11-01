@@ -1,0 +1,6 @@
+# Development and evaluation tools (not needed to run the dashboard).
+-r requirements.txt
+pytest==9.2.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+
