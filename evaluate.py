@@ -187,6 +187,13 @@ def main():
     summary = classification_summary(y_true, y_pred, class_names)
     print_report(summary)
 
+    FROZEN_THRESHOLD = 0.40  # chosen from validation data; see README
+    frozen = threshold_sweep(scores, y_true, class_names, [FROZEN_THRESHOLD])[0]
+    print(
+        f"\nAt the frozen threshold {FROZEN_THRESHOLD:.2f}: {frozen['coverage']:.1%} of images get a label; "
+        f"accuracy on those = {frozen['accuracy_on_accepted']:.3f}"
+    )
+
     RESULTS_DIR.mkdir(exist_ok=True)
     save_confusion_matrix(
         summary, f"{args.split} confusion matrix (rows = true class)", RESULTS_DIR / f"{args.split}_confusion_matrix.png"
@@ -217,4 +224,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
